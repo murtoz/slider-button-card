@@ -744,7 +744,7 @@ export class SliderButtonCard extends LitElement implements LovelaceCard {
       float: right;
       width: var(--mdc-icon-size, 24px);
       height: var(--mdc-icon-size, 24px);
-      color: var(--action-icon-color-on, var(--paper-item-icon-color, black));
+      color: var(--action-icon-color-on, var(--paper-item-icon-color, rgb(95, 124, 171)));
       cursor: pointer;
       outline: none;
       -webkit-tap-highlight-color: transparent;
@@ -755,7 +755,7 @@ export class SliderButtonCard extends LitElement implements LovelaceCard {
       top: 5px;
     }    
     .off .action {
-      color: var(--action-icon-color-off, var(--paper-item-icon-color, black));
+      color: var(--action-icon-color-off, var(--paper-item-icon-color, rgb(95, 124, 171)));
     }
     .unavailable .action {
       color: var(--disabled-text-color);
